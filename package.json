@@ -2,14 +2,14 @@
   "name": "json-server",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "json-server": "^0.17.1"
-  },
   "scripts": {
-    "start": " npm install && node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
 }
