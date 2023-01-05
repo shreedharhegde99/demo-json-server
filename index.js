@@ -9,6 +9,7 @@ server.use((req, res, next) => {
   res.setHeader("access-control-allow-origin", "*");
   next();
 });
+server.use(jsonServer.bodyParser());
 server.use(router);
 server.use(middleware);
 server.use(cors({ origin: "*" }));
